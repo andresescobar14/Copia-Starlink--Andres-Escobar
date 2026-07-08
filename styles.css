@@ -132,12 +132,12 @@ nav {
   display: flex;
 }
 
-.button-hightlight{
+.button-hightlight {
   background-color: white;
   color: black;
 }
 
-.button-nohightlight{
+.button-nohightlight {
   background-color: rgb(67, 67, 67);
   color: white;
 }
@@ -180,12 +180,12 @@ nav {
   color: rgb(145, 145, 145);
 }
 
-#column-content > div{
+#column-content > div {
   display: flex;
   gap: 16px;
 }
 
-#column-content > div > button{
+#column-content > div > button {
   padding: 8px 32px;
   font-size: var(--size-paragraphs);
   font-weight: 600;
@@ -207,33 +207,35 @@ nav {
   margin-top: 0px;
 }
 
-.section2{
+.section2 {
   display: flex;
   flex-direction: column;
   padding: 53px 150px;
   gap: 16px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.925) 100%),url(https://starlink.com/assets-new/images/landing/illustrations/illustration_07.webp);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.925) 100%),
+    url(https://starlink.com/assets-new/images/landing/illustrations/illustration_07.webp);
   background-position: center;
   background-size: cover;
 }
 
-.section2-content2{
-display: flex;
-flex-direction: column;
-background-color: #121212;
-padding: 24px 32px 6px 32px;
-border-radius: 10px;
-gap: 155px;
+.section2-content2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  padding: 24px 32px 6px 32px;
+  border-radius: 10px;
+  gap: 155px;
 }
 
-.section2-content3{
-display: flex;
-flex-direction: column;
-background-color: #121212;
-padding: 24px 32px 6px 32px;
-border-radius: 16px;
-padding-bottom: 0;
-gap: 75px;
+.section2-content3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  padding: 24px 32px 6px 32px;
+  border-radius: 16px;
+  padding-bottom: 0;
+  gap: 75px;
 }
 
 .section2-content3 > .section2-content3-price > h2 {
@@ -241,27 +243,27 @@ gap: 75px;
   font-weight: 600;
 }
 .section2-content3 > .section2-content3-text > p {
-font-size: var(--size-highlights-paragraphs);
-font-weight: 400;
-font-size: 0.875rem;
-letter-spacing: 0.01063rem;
-color: gray;
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 0.01063rem;
+  color: gray;
 }
 
 .section2-content3 > .section2-content3-text > ul > li {
-font-size: var(--size-highlights-paragraphs);
-font-weight: 400;
-font-size: 0.875rem;
-letter-spacing: 0.01063rem;
-color: gray;
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 0.01063rem;
+  color: gray;
 }
 
-.section2-content2 > .section2-content2-text > p{
-font-size: var(--size-highlights-paragraphs);
-font-weight: 400;
-font-size: 0.875rem;
-letter-spacing: 0.01063rem;
-color: gray;
+.section2-content2 > .section2-content2-text > p {
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 0.01063rem;
+  color: gray;
 }
 
 .section2-content3 > .section2-content3-price > h2 > span {
@@ -287,7 +289,7 @@ color: gray;
   font-size: var(--size-highlights-paragraphs);
 }
 
-.paragraph-section2{
+.paragraph-section2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -300,11 +302,11 @@ color: gray;
   color: gray;
 }
 
-.paragraph-section2 > p{
+.paragraph-section2 > p {
   color: gray;
 }
 
-.buttons-section2{
+.buttons-section2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -314,26 +316,26 @@ color: gray;
   margin-bottom: 0px;
 }
 
-.buttons-section2 > button{
+.buttons-section2 > button {
   padding: 8px 16px;
   font-size: var(--size-paragraphs);
   font-weight: 200;
   border-radius: 6px;
 }
 
-.buttons-section2 > .button1-section2{
+.buttons-section2 > .button1-section2 {
   background-color: rgba(67, 67, 67, 0.986);
   color: white;
   font-weight: 600;
 }
 
-.buttons-section2 > .button2-section2{
+.buttons-section2 > .button2-section2 {
   background-color: rgba(128, 128, 128, 0.24);
   color: rgb(255, 255, 255);
   font-weight: 600;
 }
 
-.section2-content1 > .section2-content1-text > p{
+.section2-content1 > .section2-content1-text > p {
   font-size: var(--size-highlights-paragraphs);
   font-weight: 400;
   font-size: 0.875rem;
@@ -347,25 +349,25 @@ color: gray;
   font-weight: 600;
 }
 
-.section2-content1 > .section2-content1-text{
-display: flex;
-flex-direction: column;
-gap: 16px;
-}
-
-.section2-content2 > .section2-content2-text{
+.section2-content1 > .section2-content1-text {
   display: flex;
   flex-direction: column;
-  gap:16px;
+  gap: 16px;
 }
 
-.section2-content3 > .section2-content3-text{
+.section2-content2 > .section2-content2-text {
   display: flex;
   flex-direction: column;
-  gap:32px;
+  gap: 16px;
 }
 
-.section2-content3-price{
+.section2-content3 > .section2-content3-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.section2-content3-price {
   margin-top: 0;
 }
 
@@ -381,12 +383,10 @@ gap: 16px;
   font-weight: 600;
 }
 
-
-
 /*================================================================*/
 
 /*===================SECTION 3====================================*/
-.section3-button > button{
+.section3-button > button {
   background-color: #fafafa;
   color: black;
   padding: 6px 32px;
@@ -395,7 +395,7 @@ gap: 16px;
   font-weight: 600;
 }
 
-.section3-content{
+.section3-content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -405,18 +405,18 @@ gap: 16px;
   font-size: 24px;
 }
 
-.section3-text > h1{
+.section3-text > h1 {
   font-size: var(--size-titles);
   font-weight: 800;
 }
 
-.section3-text{
-display:flex;
-flex-direction: column;
-gap:16px
+.section3-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.section3-text > p{
+.section3-text > p {
   font-size: var(--size-highlights-paragraphs);
   font-weight: 400;
   font-size: 18px;
@@ -424,8 +424,10 @@ gap:16px
   color: rgb(128, 128, 128);
 }
 
-.section3{
-  background-image: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%),url(https://starlink.com/assets-new/images/landing/field/v4_lightning.webp);
+.section3 {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%),
+    url(https://starlink.com/assets-new/images/landing/field/v4_lightning.webp);
   background-position: center;
   background-size: cover;
 }
@@ -433,7 +435,7 @@ gap:16px
 
 /*===============================SECTION 4==========================*/
 
-.section4-button > button{
+.section4-button > button {
   background-color: #fafafa;
   color: black;
   padding: 6px 32px;
@@ -442,7 +444,7 @@ gap:16px
   font-weight: 600;
 }
 
-.section4-content{
+.section4-content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -452,13 +454,13 @@ gap:16px
   font-size: 24px;
 }
 
-.section4-text{
-display:flex;
-flex-direction: column;
-gap:16px
+.section4-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.section4-text > p{
+.section4-text > p {
   font-size: var(--size-highlights-paragraphs);
   font-weight: 400;
   font-size: 18px;
@@ -466,13 +468,15 @@ gap:16px
   color: rgb(128, 128, 128);
 }
 
-.section4-text > h1{
+.section4-text > h1 {
   font-size: var(--size-titles);
   font-weight: 800;
 }
 
-.section4{
-  background-image: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%),url(https://starlink.com/assets-new/images/landing/field/v4_car_on_ice.webp);
+.section4 {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%),
+    url(https://starlink.com/assets-new/images/landing/field/v4_car_on_ice.webp);
   background-position: center;
   background-size: cover;
 }
@@ -481,42 +485,47 @@ gap:16px
 
 /*================================SECTION 5==========================*/
 
-.grid-content{
-min-height: 70vh;
-gap: 20px;
-display: grid;
-grid-auto-flow: column;
-grid-auto-columns: calc((100% - 100px) / 3); 
+.grid-content {
+  min-height: 70vh;
+  gap: 20px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 100px) / 3);
 }
 
-.section5{
-display: flex;
-flex-direction: column;
-max-height: 70vh;               
-padding: 150px 40px;
-color: white; 
-background-image: linear-gradient(rgba(0, 0, 0, 0.925) 100%),url(https://starlink.com/assets-new/images/landing/illustrations/illustration_08.webp);
-background-position: center;
-background-size: cover;
-overflow-x: scroll;
-overflow-y: hidden;
+.section5 {
+  display: flex;
+  flex-direction: column;
+  max-height: 70vh;
+  padding: 150px 40px;
+  color: white;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.925) 100%),
+    url(https://starlink.com/assets-new/images/landing/illustrations/illustration_08.webp);
+  background-position: center;
+  background-size: cover;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
-.grid-content1,.grid-content2, .grid-content3,.grid-content4,.grid-content5{
-
-display: flex;
-flex-direction: column;
-gap: 15px;        
+.grid-content1,
+.grid-content2,
+.grid-content3,
+.grid-content4,
+.grid-content5 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.grid-content img{
-    width: 100%;            
-    height: 475px;           
-    object-fit: cover;     
-    border-radius: 12px;     
+.grid-content img {
+  width: 100%;
+  height: 475px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
-.section5 > .title5 > h1{
+.section5 > .title5 > h1 {
   margin-bottom: 55px;
   font-size: var(--size-titles);
   font-weight: 800;
@@ -525,7 +534,7 @@ gap: 15px;
   justify-content: center;
 }
 
-.grid-content p{
+.grid-content p {
   font-size: var(--size-highlights-paragraphs);
   font-weight: 400;
   font-size: 0.875rem;
@@ -536,7 +545,7 @@ gap: 15px;
 /*=================================================*/
 
 /*==================SECTION 6==================*/
-.section6-button > button{
+.section6-button > button {
   background-color: #fafafa;
   color: black;
   padding: 12px 32px;
@@ -546,23 +555,23 @@ gap: 15px;
   border-radius: 5px;
 }
 
-.section6-content{
+.section6-content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 70vh;
-  padding-left:95vh;
+  padding-left: 95vh;
   font-size: 24px;
 }
 
-.section6-text{
-display:flex;
-flex-direction: column;
-gap:16px
+.section6-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.section6-text > p{
+.section6-text > p {
   font-size: var(--size-highlights-paragraphs);
   font-weight: 400;
   font-size: 18px;
@@ -570,13 +579,15 @@ gap:16px
   color: rgb(128, 128, 128);
 }
 
-.section6-text > h1{
+.section6-text > h1 {
   font-size: var(--size-titles);
   font-weight: 800;
 }
 
-.section6{
-  background-image: linear-gradient(to left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%), url(https://starlink.com/assets-new/images/landing/field/v4_green_roof.webp);
+.section6 {
+  background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%),
+    url(https://starlink.com/assets-new/images/landing/field/v4_green_roof.webp);
   background-position: center;
   background-size: cover;
 }
@@ -585,7 +596,7 @@ gap:16px
 
 /*=====================SECTION 7======================================*/
 
-.section6-button > button{
+.section6-button > button {
   background-color: #fafafa;
   color: black;
   padding: 12px 32px;
@@ -595,23 +606,23 @@ gap:16px
   border-radius: 5px;
 }
 
-.section6-content{
+.section6-content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 70vh;
-  padding-left:95vh;
+  padding-left: 95vh;
   font-size: 24px;
 }
 
-.section6-text{
-display:flex;
-flex-direction: column;
-gap:16px
+.section6-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.section6-text > p{
+.section6-text > p {
   font-size: var(--size-highlights-paragraphs);
   font-weight: 400;
   font-size: 18px;
@@ -619,13 +630,15 @@ gap:16px
   color: rgb(128, 128, 128);
 }
 
-.section6-text > h1{
+.section6-text > h1 {
   font-size: var(--size-titles);
   font-weight: 800;
 }
 
-.section6{
-  background-image: linear-gradient(to left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%), url(https://starlink.com/assets-new/images/landing/field/v4_green_roof.webp);
+.section6 {
+  background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%),
+    url(https://starlink.com/assets-new/images/landing/field/v4_green_roof.webp);
   background-position: center;
   background-size: cover;
 }
@@ -634,7 +647,7 @@ gap:16px
 
 /*==============SECTION 7========================*/
 
-.section7-button > button{
+.section7-button > button {
   background-color: #fafafa;
   color: black;
   padding: 12px 32px;
@@ -644,23 +657,23 @@ gap:16px
   border-radius: 5px;
 }
 
-.section7-content{
-  min-height: 100vh;
+.section7-content {
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 70vh;
-  padding-left:40vh;
+  padding-left: 40vh;
   font-size: 24px;
 }
 
-.section7-text{
-display:flex;
-flex-direction: column;
-gap:16px
+.section7-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.section7-text > p{
+.section7-text > p {
   font-size: var(--size-highlights-paragraphs);
   font-weight: 400;
   font-size: 18px;
@@ -668,25 +681,22 @@ gap:16px
   color: rgb(128, 128, 128);
 }
 
-.section7-text > h1{
+.section7-text > h1 {
   font-size: var(--size-titles);
   font-weight: 800;
 }
 
-.section7{
-  background-image: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%), url(https://starlink.com/assets-new/images/landing/field/v4_residential_yard.webp);
+.section7 {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%),
+    url(https://starlink.com/assets-new/images/landing/field/v4_residential_yard.webp);
   background-position: center;
   background-size: cover;
 }
 
 /*=====================================*/
 
-footer{
+footer {
   background-color: #000000;
-  min-height: 25vh;
+  min-height: 200px;
 }
-
-
-
-
-
