@@ -1,0 +1,692 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*
+  ======VARIABLES======
+*/
+:root {
+  /*
+    Las variables son peque;os contenedores de informacion que puedes utilizar
+    para reutilizar un estilo declarandolo una sola vez y utilizar ese estilo por toda
+    la pagina
+  */
+  --text-color-main: white;
+  --size-titles: 64px;
+  --size-subtitles: 24px;
+  --size-highlights-paragraphs: 19px;
+  --size-paragraphs: 14px;
+  --gap-standard: 12px;
+  --padding-standard: 32px;
+  --color-button: #40444f60;
+}
+
+/*
+  ======GENERALES======
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color-main);
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+/*
+  ======REUTILIZABLES======
+*/
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-main-center {
+  justify-content: center;
+}
+
+.flex-main-space-between {
+  justify-content: space-between;
+}
+
+.flex-secondary-center {
+  align-items: center;
+}
+
+.gap-standard {
+  gap: var(--gap-standard);
+}
+
+.padding-standard {
+  padding: var(--padding-standard);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+/*
+  ======ESPECIFICOS======
+*/
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://starlink.com/assets-new/images/landing/field/v4_night_sky.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 0 32px;
+}
+
+nav {
+  padding: 32px 0 0 0;
+}
+
+.circular-button {
+  border-radius: 100%;
+  padding: 10px;
+  background-color: var(--color-button);
+}
+
+.button-inactive {
+  padding: 2px 8px;
+}
+
+.button-active {
+  padding: 2px 6px;
+  background-color: rgba(199, 199, 199, 0.753);
+  border-radius: 8px;
+}
+
+.buttons-menu {
+  background-color: rgba(128, 128, 128, 0.737);
+  padding: 2px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.buttons-menu > button {
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+.link-menu {
+  font-size: var(--size-paragraphs);
+  font-weight: 600;
+}
+
+.col-content {
+  display: flex;
+}
+
+.button-hightlight{
+  background-color: white;
+  color: black;
+}
+
+.button-nohightlight{
+  background-color: rgb(67, 67, 67);
+  color: white;
+}
+
+#logo {
+  letter-spacing: 4px;
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+#header-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100%;
+}
+
+#column-content {
+  gap: 16px;
+  padding: 0 0 120px 120px;
+}
+
+#column-content > h1 {
+  font-size: var(--size-titles);
+  font-weight: 800;
+}
+
+#column-content > p {
+  font-size: var(--size-paragraphs);
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+
+#column-content > h2 {
+  font-size: var(--size-titles);
+  font-weight: 600;
+}
+
+#column-content > h2 > span {
+  font-size: var(--size-highlights-paragraphs);
+  color: rgb(145, 145, 145);
+}
+
+#column-content > div{
+  display: flex;
+  gap: 16px;
+}
+
+#column-content > div > button{
+  padding: 8px 32px;
+  font-size: var(--size-paragraphs);
+  font-weight: 600;
+  border-radius: 6px;
+}
+/*===================SECTION 2=============================*/
+.section2-content1 {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px 6px 32px;
+  gap: 158px;
+  background-color: #121212;
+  border-radius: 10px;
+}
+
+.section2-content-divs {
+  display: flex;
+  gap: 32px;
+  margin-top: 0px;
+}
+
+.section2{
+  display: flex;
+  flex-direction: column;
+  padding: 53px 150px;
+  gap: 16px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.925) 100%),url(https://starlink.com/assets-new/images/landing/illustrations/illustration_07.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.section2-content2{
+display: flex;
+flex-direction: column;
+background-color: #121212;
+padding: 24px 32px 6px 32px;
+border-radius: 10px;
+gap: 155px;
+}
+
+.section2-content3{
+display: flex;
+flex-direction: column;
+background-color: #121212;
+padding: 24px 32px 6px 32px;
+border-radius: 16px;
+padding-bottom: 0;
+gap: 75px;
+}
+
+.section2-content3 > .section2-content3-price > h2 {
+  font-size: var(--size-titles);
+  font-weight: 600;
+}
+.section2-content3 > .section2-content3-text > p {
+font-size: var(--size-highlights-paragraphs);
+font-weight: 400;
+font-size: 0.875rem;
+letter-spacing: 0.01063rem;
+color: gray;
+}
+
+.section2-content3 > .section2-content3-text > ul > li {
+font-size: var(--size-highlights-paragraphs);
+font-weight: 400;
+font-size: 0.875rem;
+letter-spacing: 0.01063rem;
+color: gray;
+}
+
+.section2-content2 > .section2-content2-text > p{
+font-size: var(--size-highlights-paragraphs);
+font-weight: 400;
+font-size: 0.875rem;
+letter-spacing: 0.01063rem;
+color: gray;
+}
+
+.section2-content3 > .section2-content3-price > h2 > span {
+  color: rgba(145, 145, 145, 0.301);
+  font-size: var(--size-highlights-paragraphs);
+}
+
+.section2-content1 > .section2-content1-price > h2 {
+  font-size: var(--size-titles);
+  font-weight: 600;
+}
+.section2-content1 > .section2-content1-price > h2 > span {
+  color: rgb(145, 145, 145);
+  font-size: var(--size-highlights-paragraphs);
+}
+
+.section2-content2 > .section2-content2-price > h2 {
+  font-size: var(--size-titles);
+  font-weight: 600;
+}
+.section2-content2 > .section2-content2-price > h2 > span {
+  color: rgb(145, 145, 145);
+  font-size: var(--size-highlights-paragraphs);
+}
+
+.paragraph-section2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+  padding-top: 12px;
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 0.01063rem;
+  color: gray;
+}
+
+.paragraph-section2 > p{
+  color: gray;
+}
+
+.buttons-section2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 0px;
+}
+
+.buttons-section2 > button{
+  padding: 8px 16px;
+  font-size: var(--size-paragraphs);
+  font-weight: 200;
+  border-radius: 6px;
+}
+
+.buttons-section2 > .button1-section2{
+  background-color: rgba(67, 67, 67, 0.986);
+  color: white;
+  font-weight: 600;
+}
+
+.buttons-section2 > .button2-section2{
+  background-color: rgba(128, 128, 128, 0.24);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.section2-content1 > .section2-content1-text > p{
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 0.01063rem;
+  color: gray;
+}
+
+.section2-content1 > .section2-content1-price > p {
+  font-size: var(--size-paragraphs);
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+
+.section2-content1 > .section2-content1-text{
+display: flex;
+flex-direction: column;
+gap: 16px;
+}
+
+.section2-content2 > .section2-content2-text{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+}
+
+.section2-content3 > .section2-content3-text{
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+}
+
+.section2-content3-price{
+  margin-top: 0;
+}
+
+.section2-content2 > .section2-content2-price > p {
+  font-size: var(--size-paragraphs);
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+
+.section2-content3 > .section2-content3-price > p {
+  font-size: var(--size-paragraphs);
+  color: rgb(145, 145, 145);
+  font-weight: 600;
+}
+
+
+
+/*================================================================*/
+
+/*===================SECTION 3====================================*/
+.section3-button > button{
+  background-color: #fafafa;
+  color: black;
+  padding: 6px 32px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section3-content{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60vh;
+  padding-left: 40vh;
+  font-size: 24px;
+}
+
+.section3-text > h1{
+  font-size: var(--size-titles);
+  font-weight: 800;
+}
+
+.section3-text{
+display:flex;
+flex-direction: column;
+gap:16px
+}
+
+.section3-text > p{
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01063rem;
+  color: rgb(128, 128, 128);
+}
+
+.section3{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%),url(https://starlink.com/assets-new/images/landing/field/v4_lightning.webp);
+  background-position: center;
+  background-size: cover;
+}
+/*=================================================================*/
+
+/*===============================SECTION 4==========================*/
+
+.section4-button > button{
+  background-color: #fafafa;
+  color: black;
+  padding: 6px 32px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section4-content{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70vh;
+  padding-left: 40vh;
+  font-size: 24px;
+}
+
+.section4-text{
+display:flex;
+flex-direction: column;
+gap:16px
+}
+
+.section4-text > p{
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01063rem;
+  color: rgb(128, 128, 128);
+}
+
+.section4-text > h1{
+  font-size: var(--size-titles);
+  font-weight: 800;
+}
+
+.section4{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%),url(https://starlink.com/assets-new/images/landing/field/v4_car_on_ice.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+/*==================================================================*/
+
+/*================================SECTION 5==========================*/
+
+.grid-content{
+min-height: 70vh;
+gap: 20px;
+display: grid;
+grid-auto-flow: column;
+grid-auto-columns: calc((100% - 100px) / 3); 
+}
+
+.section5{
+display: flex;
+flex-direction: column;
+max-height: 70vh;               
+padding: 150px 40px;
+color: white; 
+background-image: linear-gradient(rgba(0, 0, 0, 0.925) 100%),url(https://starlink.com/assets-new/images/landing/illustrations/illustration_08.webp);
+background-position: center;
+background-size: cover;
+overflow-x: scroll;
+overflow-y: hidden;
+}
+
+.grid-content1,.grid-content2, .grid-content3,.grid-content4,.grid-content5{
+
+display: flex;
+flex-direction: column;
+gap: 15px;        
+}
+
+.grid-content img{
+    width: 100%;            
+    height: 475px;           
+    object-fit: cover;     
+    border-radius: 12px;     
+}
+
+.section5 > .title5 > h1{
+  margin-bottom: 55px;
+  font-size: var(--size-titles);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-content p{
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 0.01063rem;
+  color: gray;
+}
+
+/*=================================================*/
+
+/*==================SECTION 6==================*/
+.section6-button > button{
+  background-color: #fafafa;
+  color: black;
+  padding: 12px 32px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.section6-content{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70vh;
+  padding-left:95vh;
+  font-size: 24px;
+}
+
+.section6-text{
+display:flex;
+flex-direction: column;
+gap:16px
+}
+
+.section6-text > p{
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01063rem;
+  color: rgb(128, 128, 128);
+}
+
+.section6-text > h1{
+  font-size: var(--size-titles);
+  font-weight: 800;
+}
+
+.section6{
+  background-image: linear-gradient(to left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%), url(https://starlink.com/assets-new/images/landing/field/v4_green_roof.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+/*=================================================================/*
+
+/*=====================SECTION 7======================================*/
+
+.section6-button > button{
+  background-color: #fafafa;
+  color: black;
+  padding: 12px 32px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.section6-content{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70vh;
+  padding-left:95vh;
+  font-size: 24px;
+}
+
+.section6-text{
+display:flex;
+flex-direction: column;
+gap:16px
+}
+
+.section6-text > p{
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01063rem;
+  color: rgb(128, 128, 128);
+}
+
+.section6-text > h1{
+  font-size: var(--size-titles);
+  font-weight: 800;
+}
+
+.section6{
+  background-image: linear-gradient(to left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%), url(https://starlink.com/assets-new/images/landing/field/v4_green_roof.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+/*=======================================*/
+
+/*==============SECTION 7========================*/
+
+.section7-button > button{
+  background-color: #fafafa;
+  color: black;
+  padding: 12px 32px;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.section7-content{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 70vh;
+  padding-left:40vh;
+  font-size: 24px;
+}
+
+.section7-text{
+display:flex;
+flex-direction: column;
+gap:16px
+}
+
+.section7-text > p{
+  font-size: var(--size-highlights-paragraphs);
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01063rem;
+  color: rgb(128, 128, 128);
+}
+
+.section7-text > h1{
+  font-size: var(--size-titles);
+  font-weight: 800;
+}
+
+.section7{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%), url(https://starlink.com/assets-new/images/landing/field/v4_residential_yard.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+/*=====================================*/
+
+footer{
+  background-color: #000000;
+  min-height: 25vh;
+}
+
+
+
+
+
