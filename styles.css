@@ -577,7 +577,7 @@ gap:16px
 
 .section6{
   background-image: linear-gradient(to left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0)100%), url(https://starlink.com/assets-new/images/landing/field/v4_green_roof.webp);
-  background-position: center;
+  background-position: center center;
   background-size: cover;
 }
 
